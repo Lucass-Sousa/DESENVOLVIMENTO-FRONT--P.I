@@ -1,0 +1,99 @@
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-user {
+        flex-direction: row;
+        align-items: center;
+    }
+    .items-nav{
+        display: none;
+    }
+
+    .nav-user {
+        gap: 20px;
+    }
+
+    .user img {
+        width: 70px;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+    .mobile-menu div {
+        width: 32px;
+        height: 2px;
+        background-color: #fff;
+        margin: 5px 0;
+        border: solid 1px #fff;
+    }
+
+    .box-sections {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-article {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .item-info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-box {
+        width: 100%;
+    }
+    .controle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .adicionar ,.registro{
+        width: 540px;
+    }
+}
+
+@media (max-width: 475px) {
+    .content {
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-projeto img {
+        width: 100px;
+    }
+    .menu {
+        justify-content: space-around;
+    }
+    .user {
+        gap: 5px;
+    }
+    .user img{
+        width: 50px;
+    }
+    .adicionar ,.registro{
+        width: 90%;
+    }
+    .box-article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-info {
+        width: 85%;
+    }
+}
